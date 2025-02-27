@@ -1,0 +1,52 @@
+.service-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .service-card .scale-animation {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 315px; /* Initial width of the border */
+  height: 105px; /* Initial height of the border */
+    border: 3px solid #fff;
+    transition: all 0.4s ease-in-out;
+
+  }
+
+ /* Responsive design for mobile */
+@media (max-width: 768px) {
+  .service-card .scale-animation {
+    width: 240px; /* Mobile size */
+    height: 95px;  /* Mobile size */
+  }
+}
+  
+  .service-card:hover .scale-animation {
+    width: 214px; /* Expanding to a width of 214px */
+    height: 84px; /* Expanding to a height of 84px */
+    border-radius: 0; /* Square border expansion */
+  }
+  
+  .service-card:hover .scale-animation {
+    width: 300px;
+    height: 200px;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  :after,
+  :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
