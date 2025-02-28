@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Contact from "./pages/contact";
-import Emi from "./pages/emi";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import StampDutyCalculator from "./pages/stamp";
 import Krisumi from "./pages/Krisumi";
 import Mvn from "./pages/Mvn";
 import FloatingContactIcons from "./components/FloatingContactIcons";
@@ -14,8 +12,6 @@ import PrivacyPolicy from "./pages/Privacy";
 import Disclaimer from "./pages/Disclaimer";
 import TermsAndConditions from "./pages/Terms";
 import TopProperties from "./components/All_Properties";
-import ResidentialProperties from "./components/Residential";
-import CommercialProperties from "./components/Commercial";
 import AboutUsPage from "./pages/Aboutus_Page";
 import ChatBot from "./components/chatbot";
 import Interiors from "./components/Interiors";
@@ -59,8 +55,6 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<AboutUsPage />} />
-            <Route path="/resources/emi" element={<Emi />} />
-            <Route path="/resources/stamp_duty" element={<StampDutyCalculator />} />
             <Route path="/Krisumi" element={<Krisumi />} />
             <Route path="/mvn" element={<Mvn />} />
             <Route path="/trevoc" element={<Trevoc />} />
@@ -68,8 +62,6 @@ export default function App() {
             <Route path="/Disclaimer" element={<Disclaimer />} />
             <Route path="/termsandconditions" element={<TermsAndConditions />} />
             <Route path="/properties" element={<TopProperties />} />
-            <Route path="/properties/residential" element={<ResidentialProperties />} />
-            <Route path="/properties/commercial" element={<CommercialProperties />} />
             <Route path="/chatbot" element={<ChatBot />} />
             <Route path="/interiors" element={<Interiors />} />
             <Route path="/camasa" element={<Camasa />} />

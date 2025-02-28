@@ -90,7 +90,7 @@ const Testimonials = () => {
                 transition={{ duration: 0.5, delay: index * 0.2 }}
                 className="bg-gray-100 p-6 rounded-lg shadow-md w-80"
               >
-                <span className="text-3xl text-blue-500 mr-2 italic font-bold">“</span>
+          
                 <p className="text-black">{testimonial.feedback}</p>
                 <h4 className="text-blue-950 font-semibold mt-4">{testimonial.name}</h4>
                 <StarRating rating={testimonial.rating} />

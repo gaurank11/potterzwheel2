@@ -7,7 +7,7 @@ const PropertiesPage = () => {
 
   const featuredProperties = [
     { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.png", name: "KRISUMI WATERSIDE RESIDENCES", link: "/Krisumi", price: "4 cr" },
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp", name: "MVN MALL", link: "/mvn", price: "27 lakhs (Investment only)" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp", name: "MVN MALL", link: "/mvn", price: "27 lakhs" },
   ];
 
   const secondRowProperties = [
@@ -37,8 +37,8 @@ const PropertiesPage = () => {
         />
 
         <div className="flex flex-col items-start px-4 py-2 sm:hidden">
-          <p className="text-lg font-bold text-black">Starting From - {price}</p>
-          <p className="text-md text-gray-700">{name}</p>
+        <p className="text-xl font-bold text-black">{name}</p>
+        <p className="text-sm text-black">Starting From - {price}</p>
           <button
             className="mt-2 px-4 py-2 w-full bg-transparent border-black border text-black font-semibold hover:bg-black hover:text-white transition"
             onClick={() => handleNavigate(link)}
@@ -51,7 +51,7 @@ const PropertiesPage = () => {
           <p>{name}</p>
         </div>
 
-        <div className="absolute inset-x-0 bottom-0 flex justify-between items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white p-3">
+        <div className="absolute inset-x-0 bottom-0 flex justify-between items-center opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 bg-white p-4">
           <div className="flex flex-col">
             <span className="text-black text-lg font-semibold">{name}</span>
             <span className="text-gray-600 text-sm">Starting From - {price}</span>
