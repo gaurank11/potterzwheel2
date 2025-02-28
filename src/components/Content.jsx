@@ -53,11 +53,11 @@ const Content = () => {
   ]), []);
 
   const services = useMemo(() => ([
-    "Residential", "Commercial", "SCO", "Studio Apartments", "Plots", "Fractional Ownership"
+    "Residential", "Commercial", "SCO", "Studio Apartments", "Plots", "Fractional Ownership", "FarmHouses"
   ]), []);
 
   return (
-    <section id="content" className="max-w-7xl mx-auto py-12 px-6 font-dm-sans text-gray-600">
+    <section id="content" className="max-w-7xl mx-auto py-12 px-6  text-gray-600">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         
         {/* Reach Us Section */}
@@ -97,14 +97,11 @@ const Content = () => {
 
           {/* Social Links */}
           <div className="mt-12 flex space-x-4">
-            <a href="https://www.instagram.com/wepotterz/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/potterzwheel_realty?igsh=MWtvb3FuNGY2NnRlYg==" target="_blank" rel="noopener noreferrer">
               <Instagram className="text-pink-500 hover:text-pink-600 h-8 w-8" />
             </a>
             <a href="https://www.facebook.com/profile.php?id=61559495078889" target="_blank" rel="noopener noreferrer">
               <Facebook className="text-blue-300 hover:text-blue-400 h-8 w-8" />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <XIcon className="text-gray-400 hover:text-blue-100 h-8 w-8" />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <Linkedin className="text-white hover:text-white h-8 w-8" />
@@ -114,7 +111,7 @@ const Content = () => {
 
         {/* Contact Form */}
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Let's Get in Touch</h2>
+          <h2 className="text-3xl font-bold text-blue-950 mb-6">Let's Get in Touch</h2>
           <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
             
             <input name="name" type="text" placeholder="Name" value={formData.name} 

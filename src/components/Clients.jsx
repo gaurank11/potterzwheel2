@@ -3,10 +3,12 @@ import Slider from "react-slick";
 
 const ClientPartners = () => {
   const images = [
-    "/Krisumi logo.png",
-    "/Real-Estate.jpg",
-    "/MVN_group.png",
-    "/logo-icon.svg"
+    "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi logo.webp",
+    "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Real-Estate.webp",
+    "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/MVN_group.webp",
+    "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/M3M.webp",
+    "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Sobha.webp",
+    "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/DLF.webp",
   ];
 
   // Duplicate images for seamless infinite scrolling
@@ -28,7 +30,7 @@ const ClientPartners = () => {
   return (
     <div className="flex flex-col items-center justify-center py-4">
       {/* Centered Heading */}
-      <h1 className="text-xl md:text-4xl font-bold mb-6 text-center">
+      <h1 className="text-3xl md:text-6xl font-bold mt-5 md:mb-10 md:pb-5 text-center text-blue-950">
         Our Clients and Partners
       </h1>
 
@@ -40,7 +42,7 @@ const ClientPartners = () => {
               <img 
                 src={image} 
                 alt={`Client ${index + 1}`} 
-                className="w-32 h-24 object-contain" // Ensures all logos have equal height
+                className="w-48 h-32 md:w-64 md:h-48 object-contain" // Increased size for mobile
               />
             </div>
           ))}

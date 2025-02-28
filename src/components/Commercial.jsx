@@ -6,9 +6,10 @@ const propertiesData = [
   {
     id: 2,
     name: 'MVN MALL',
+    price: '',
     type: 'Commercial',
     address: 'Sector 37D, Gurgaon, Haryana',
-    image: '/mvn/overview_img.jpg',
+    image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp',
     logo: '/MVN_group.png',
     link: '/mvn'
   }
@@ -40,7 +41,7 @@ const CommercialProperties = () => {
                 <div className="relative h-48 bg-cover bg-center" style={{ backgroundImage: `url(${image})` }}></div>
 
                 {/* Property Details */}
-                <div className="p-4 bg-blue-950 text-white">
+                <div className="p-4 bg-blue-950 text-white h-[150px] md:h-[164px]">
                   <h3 className="text-lg font-bold">{name}</h3>
                   <p className="text-sm mb-2">{type}</p>
                   <div className="flex items-center justify-between">

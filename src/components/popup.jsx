@@ -140,6 +140,7 @@ const Popup = ({ setShowPopup }) => {
               <option value="Studio Apartments">Studio Apartments</option>
               <option value="Plots">Plots</option>
               <option value="Fractional Ownership">Fractional Ownership</option>
+              <option value="FarmHouses">FarmHouses</option>
             </select>
           </div>
 

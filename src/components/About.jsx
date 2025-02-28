@@ -21,7 +21,7 @@ const AboutUs = React.memo(() => {
   return (
     <section className="bg-white py-16 px-6 lg:px-16">
       <div className="max-w-7xl mx-auto text-center">
-        <h1 className="text-4xl font-bold text-black mb-12 md:text-6xl">About Us</h1>
+        <h1 className="text-3xl font-bold text-blue-950 mb-12 md:text-6xl">About Us</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {founders.map((founder, index) => (

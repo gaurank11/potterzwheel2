@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <h1 
         className="text-4xl md:text-6xl text-white font-bold bg-black bg-opacity-50 px-6 py-4 rounded-md" 
-        style={{ fontFamily: "'NOURD', sans-serif", fontWeight: 'bold' }}
+        style={{ fontWeight: 'bold' }}
       >
         Contact Us
       </h1>

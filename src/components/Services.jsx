@@ -42,7 +42,7 @@ const OurServices = React.memo(() => {
   return (
     <section className="px-6 lg:px-16 bg-white py-10">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-black mb-12 md:text-6xl mt-2">Our Services</h2>
+        <h2 className="text-4xl font-bold text-blue-950 mb-12 md:text-6xl mt-2">Our Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
           {services.map((service, index) => (
             <div

@@ -28,7 +28,7 @@ const Footer = React.memo(() => {
             <h2 className="text-2xl font-bold text-white font-nourd md:text-center">Follow Us</h2>
             <div className="flex space-x-4 md:space-x-3">
               <Suspense fallback={<div>Loading...</div>}>
-                <a href="https://www.instagram.com/wepotterz/" className="text-white hover:text-gray-400">
+                <a href="https://www.instagram.com/potterzwheel_realty?igsh=MWtvb3FuNGY2NnRlYg==" className="text-white hover:text-gray-400">
                   <InstagramIcon className="h-5 w-5 md:h-6 md:w-6" />
                 </a>
                 <a href="https://www.facebook.com/profile.php?id=61559495078889" className="text-white hover:text-gray-400">
