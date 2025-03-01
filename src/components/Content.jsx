@@ -67,9 +67,9 @@ const Content = () => {
               { Icon: Link, label: "Website", value: "potterzwheel.com", href: "https://potterzwheel.com" }
             ].map(({ Icon, label, value, href }) => (
               <p key={label} className="flex items-center">
-                <Icon className="mr-2 text-red-100 h-6 w-6" />
-                <span className="text-lg font-bold">{label}:</span>
-                <a href={href} className="underline text-red-50 hover:text-red-50 ml-2">{value}</a>
+                <Icon className="mr-2 text-red-100 h-4 w-4 md:h-7 md:w-7" />
+                <span className="font-bold text-base md:text-2xl">{label}:</span>
+                <a href={href} className="underline text-red-50 hover:text-red-50 ml-2 text-sm md:text-xl">{value}</a>
               </p>
             ))}
           </div>
@@ -82,7 +82,7 @@ const Content = () => {
               { Icon: Linkedin, href: "https://linkedin.com", color: "text-white hover:text-white" }
             ].map(({ Icon, href, color }) => (
               <a key={href} href={href} target="_blank" rel="noopener noreferrer">
-                <Icon className={`${color} h-8 w-8`} />
+                <Icon className={`${color} md:h-8 md:w-8`} />
               </a>
             ))}
           </div>
