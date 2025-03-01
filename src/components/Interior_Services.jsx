@@ -55,7 +55,7 @@ const ServicesSection = () => {
                   />
                 </div>
                 <div className="text-center flex-grow">
-                  <h3 className="text-xl font-bold text-gray-800 uppercase">
+                  <h3 className="text-lg md:text-xl  font-bold text-gray-800 uppercase">
                     <a
                       href={service.link}
                       className="text-gray-900 hover:text-gray-600 transition-colors duration-300"
@@ -63,7 +63,7 @@ const ServicesSection = () => {
                       {service.title}
                     </a>
                   </h3>
-                  <p className="text-gray-600 mt-4">{service.description}</p>
+                  <p className="text-gray-600 mt-4 text-sm">{service.description}</p>
                 </div>
               </div>
             </div>

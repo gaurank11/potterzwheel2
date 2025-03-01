@@ -29,7 +29,7 @@ const AboutUsPage = () => {
   return (
     <div className="mt-1">
       {/* Hero Section */}
-      <section className="relative h-[250px] md:h-[95vh] flex items-center justify-center mt-10 pt-6">
+      <section className="relative h-[270px] md:h-[95vh] flex items-center justify-center mt-10 pt-6">
         {/* Lazy Loaded Hero Image */}
         <img 
           src="https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aboutus_hero.webp"
@@ -37,18 +37,17 @@ const AboutUsPage = () => {
           className="absolute inset-0 w-full h-full object-cover"
           loading="lazy"
         />
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+     
         {/* Title */}
-        <h1 className="relative text-3xl md:text-6xl text-white font-bold px-6 py-4 rounded-md">
-          Contact Us
+        <h1 className="relative text-3xl md:text-6xl text-black font-bold px-6 py-4 rounded-md">
+          About Us
         </h1>
       </section>
 
       {/* About Section */}
       <section className="py-20 px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-12 md:space-y-0 md:space-x-12">
         <div className="flex-1">
-          <p className="text-lg">At Potterzwheel Realty, we aim to transform the real estate experience by addressing common inefficiencies, lack of transparency, and fragmented services in the market. Whether buying, selling, or leasing residential or commercial properties, our goal is to provide a seamless, customer-focused experience that maximizes your returns and builds trust.</p>
+          <p className="text-lg md:text-xl">At Potterzwheel Realty, we aim to transform the real estate experience by addressing common inefficiencies, lack of transparency, and fragmented services in the market. Whether buying, selling, or leasing residential or commercial properties, our goal is to provide a seamless, customer-focused experience that maximizes your returns and builds trust.</p>
           <h2 className="mt-6 text-3xl font-semibold">Potterzwheel Realty—Crafting Legacies</h2>
         </div>
         <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-6">

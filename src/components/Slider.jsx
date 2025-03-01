@@ -34,7 +34,7 @@ export default function Slider() {
 
   return (
     <div
-      className="relative w-full md:h-[95vh] h-[250px] overflow-hidden rounded-2xl shadow-lg mt-10 pt-6"
+      className="relative w-full md:h-[95vh] h-[270px] overflow-hidden rounded-2xl shadow-lg mt-10 pt-6"
       onMouseEnter={() => clearTimeout(timeoutRef.current)}
       onMouseLeave={startAutoPlay}
     >

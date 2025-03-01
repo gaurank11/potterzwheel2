@@ -64,12 +64,12 @@ const HowItWorks = () => (
         {processSteps.map((step, index) => (
           <div key={index} className="bg-white p-6 shadow-lg rounded-lg text-center">
             <div className="relative">
-              <div className="absolute top-0 right-0 text-7xl font-extrabold text-gray-200">{step.number}</div>
+              <div className="absolute top-0 right-0 text-6xl font-extrabold text-gray-200">{step.number}</div>
               <div className="mx-left w-16 h-16 bg-blue-950 flex justify-center items-center rounded-md transition-transform duration-500 ease-in-out transform hover:rotate-180">
                 <img src={step.icon} className="w-10 h-10" alt={step.title} />
               </div>
             </div>
-            <h3 className="text-lg font-semibold mt-4 text-left">
+            <h3 className="text-lg font-semibold mt-4 text-left md:text-xl">
               <a href={step.link} className="text-black hover:underline">
                 {step.title}
               </a>
@@ -116,7 +116,7 @@ const RecentWork = () => {
                   className="w-full h-64 object-cover"
                 />
                 <div className="p-4">
-                  <h3 className="text-xl font-semibold">{work.title}</h3>
+                  <h3 className="text-lg md:text-xl font-semibold">{work.title}</h3>
                 </div>
               </div>
             </SwiperSlide>

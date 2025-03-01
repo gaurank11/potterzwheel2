@@ -35,7 +35,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <div className="md:h-[95vh] h-[250px] overflow-hidden bg-black mt-10 pt-6">
+    <div className="md:h-[95vh] h-[270px] overflow-hidden bg-black mt-10 pt-6">
       <Slider {...settings} className="w-full h-full">
         {images.map((image, index) => (
           <div key={index} className="relative md:h-[700px] h-[250px]  flex items-center justify-center">

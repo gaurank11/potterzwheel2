@@ -19,7 +19,7 @@ const TopProperties = () => {
 
   return (
     <>
-      <section id="properties" className="md:h-[95vh] h-[250px] bg-cover bg-center flex items-center justify-center mt-10 pt-6" style={{ backgroundImage: "url('properties_page.png')" }}>
+      <section id="properties" className="md:h-[95vh] h-[270px] bg-cover bg-center flex items-center justify-center mt-10 pt-6" style={{ backgroundImage: "url('properties_page.png')" }}>
         <h1 className="text-3xl md:text-6xl text-white font-bold bg-black bg-opacity-50 px-6 py-4 rounded-md">Listings</h1>
       </section>
 
