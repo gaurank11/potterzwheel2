@@ -62,12 +62,12 @@ const AboutUsPage = () => {
       <section className="py-20 px-6 bg-blue-950 text-white">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-12 md:space-y-0 md:space-x-12">
           <div className="flex-2 grid grid-cols-2 gap-6">
-            {[{ name: "Vishal Awasthi", image: "vikas_awasthi.webp" }, { name: "Amandeep Malhotra", image: "malhotra.webp" }]
+            {[{ name: "Vishal Awasthi", image: "vikas_awasthi1.webp" }, { name: "Amandeep Malhotra", image: "amandeep_photo.webp" }]
               .map((founder, index) => (
                 <div key={index} className="flex flex-col items-center">
                   <img src={`https://raw.githubusercontent.com/potterzwhealrealty/photos/main/${founder.image}`} 
                     alt={founder.name} className="rounded-lg shadow-md w-48 h-32 md:w-80 md:h-64" loading="lazy" />
-                  <p className="mt-2 text-sm">{founder.name}</p>
+                  <p className="mt-2 text-xs md:text-sm">{founder.name}</p>
                 </div>
               ))}
           </div>
