@@ -3,16 +3,16 @@ import PropertyDetails from '../components/Properties_Details';
 
 const Camasa = () => {
   const images = [
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss1.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss2.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss3.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss4.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss5.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss6.jpeg',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss1.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss2.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss3.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss4.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss5.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss6.webp',
   ];
 
 
-  const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.png";
+  const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp";
   const brochureUrl = "/Waterside-Residences-Brochure.pdf"; 
   const details = "SS Camasa";
 
@@ -22,7 +22,7 @@ const Camasa = () => {
 
   const price = ''
 
-  const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_map.png';
+  const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_map.webp';
   const mapUrl = 'https://www.google.com/maps/place/Krisumi+Sales+Lounge/@28.4192531,76.9649014,17z/data=!3m1!4b1!4m6!3m5!1s0x390d3d63b59907ff:0x92efb89d2926d143!8m2!3d28.4192485!4d76.9697723!16s%2Fg%2F11f57wszxq?entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D';
 
   const amenities = [

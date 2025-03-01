@@ -3,15 +3,15 @@ import PropertyDetails from '../components/Properties_Details';
 
 const Trevoc = () => {
   const images = [
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t1.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t2.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t3.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t4.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t5.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t6.jpeg',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t1.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t2.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t3.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t4.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t5.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t6.webp',
   ];
 
-  const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_home.png";
+  const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_home.webp";
 
 
 
@@ -24,7 +24,7 @@ const Trevoc = () => {
 
   const price = ''
 
-  const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_map.jpeg';
+  const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_map.webp';
   const mapUrl = 'https://maps.app.goo.gl/4yUzCjvTzv4JAmBfA';
 
   // const amenities = [

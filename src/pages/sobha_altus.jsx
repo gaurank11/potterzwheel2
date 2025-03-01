@@ -3,16 +3,16 @@ import PropertyDetails from '../components/Properties_Details';
 
 const Sobha = () => {
   const images = [
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha1.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha2.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha3.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha4.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha5.jpeg',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha6.jpeg',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha1.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha2.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha3.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha4.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha5.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha6.webp',
   ];
 
 
-  const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.jpeg";
+  const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp";
   const brochureUrl = "/Waterside-Residences-Brochure.pdf"; 
   const details = "SOBHA ALTUS";
 

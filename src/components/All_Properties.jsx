@@ -19,9 +19,22 @@ const TopProperties = () => {
 
   return (
     <>
-      <section id="properties" className="md:h-[95vh] h-[270px] bg-cover bg-center flex items-center justify-center mt-10 pt-6" style={{ backgroundImage: "url('properties_page.png')" }}>
-        <h1 className="text-3xl md:text-6xl text-white font-bold bg-black bg-opacity-50 px-6 py-4 rounded-md">Listings</h1>
+     <section className="relative h-[270px] md:h-[95vh] flex items-center justify-center mt-10 pt-6">
+        {/* Lazy Loaded Hero Image */}
+        <img 
+          src="  properties_page.png"
+          alt="Hero"
+          className="absolute inset-0 w-full h-full object-cover"
+          loading="lazy"
+        />
+        
+        {/* Title */}
+        <h1 className="relative text-3xl md:text-6xl text-white font-bold px-6 py-4 rounded-md">
+          Listings
+        </h1>
       </section>
+
+    
 
       <section className="py-10 px-6 bg-gray-100">
         <div className="max-w-7xl mx-auto">
