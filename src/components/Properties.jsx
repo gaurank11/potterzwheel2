@@ -6,18 +6,18 @@ const PropertiesPage = () => {
   const navigate = useNavigate();
 
   const featuredProperties = [
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.png", name: "KRISUMI WATERSIDE RESIDENCES", link: "/Krisumi", price: "4 cr", sector: "Sector 36A, Gurgaon, Haryana" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.webp", name: "KRISUMI WATERSIDE RESIDENCES", link: "/Krisumi", price: "4 cr", sector: "Sector 36A, Gurgaon, Haryana" },
     { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp", name: "MVN MALL", link: "/mvn", price: "27 lakhs", sector: "Sector 37D, Gurgaon, Haryana" },
   ];
 
   const secondRowProperties = [
     { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_home.webp", name: "TREVOC PROPERTIES", link: "/trevoc", price: "6 cr", sector: "Sector 56, Gurgaon, Haryana" },
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp", name: "SS CAMASA", link: "/camasa", price: "3.20 cr", sector: "Sector 80, Gurgaon, Haryana"},
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp", name: "SOBHA ALTUS", link: "/sobha", price: "1.55 cr", sector: "Sector 89, Gurgaon, Haryana" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp", name: "SS CAMASA", link: "/camasa", price: "3.20 cr", sector: "Sector 90, Gurgaon, Haryana"},
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp", name: "SOBHA ALTUS", link: "/sobha", price: "1.55 cr", sector: "Sector 106, Gurgaon, Haryana" },
   ];
 
   const thirdRowProperties = [
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_overview.webp", name: "Eldeco Fairway Reserve", link: "/eldico", price: "3.5 cr", sector: "Sector 90, Gurgaon, Haryana" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_overview.webp", name: "Eldeco Fairway Reserve", link: "/eldico", price: "3.5 cr", sector: "Sector 80, Gurgaon, Haryana" },
     { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/waterfall/waterfall_img.webp", name: "KRISUMI WATERFALL RESIDENCE", link: "/waterfall", price: "2.20 cr", sector: "Sector- 36A Dwarka Expressway, Gurgaon"},
   ];
 

@@ -3,19 +3,19 @@ import PropertyDetails from '../components/Properties_Details';
 
 const Aeroone = () => {
   const images = [
-    'https://one.mvn.in/img/gallery/5.webp',
-    'https://one.mvn.in/img/gallery/1.webp',
-    'https://one.mvn.in/img/gallery/2.webp',
-    'https://one.mvn.in/img/gallery/4.webp',
-    'https://one.mvn.in/img/gallery/6.webp',
-    'https://one.mvn.in/img/gallery/3.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero1.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero2.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero3.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero4.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero5.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero6.webp',
   ];
-const  overview_img = "https://www.realtorprojects.com/project_pics/MVN%20Aero%20One%20banner-32581.jpg";
+const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero_home.webp";
 
 const property_location ="Sector 37D, Gurgaon"
 
-  const brochureUrl = "/Waterside-Residences-Brochure.pdf"; 
-  const details = "MVN AERO ONE";
+  const brochureUrl = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aeroone.pdf"; 
+  const details = "MVN AEROONE";
 
   const builder ="MVN"
 
@@ -25,7 +25,7 @@ MVN Aero One seems to be generating quite a buzz. It appears to be a new project
 
   const price = ''
 
-  const mapImage = 'https://one.mvn.in/img/location_map.webp';
+  const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero_map.webp';
   const mapUrl = 'https://www.google.com/maps/place/Krisumi+Sales+Lounge/@28.4192531,76.9649014,17z/data=!3m1!4b1!4m6!3m5!1s0x390d3d63b59907ff:0x92efb89d2926d143!8m2!3d28.4192485!4d76.9697723!16s%2Fg%2F11f57wszxq?entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D';
   const amenities = [
     { name: 'Round the Clock Security', icon: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Amenities/a1.svg' },

@@ -13,16 +13,18 @@ const Sobha = () => {
 
 
   const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp";
-  const brochureUrl = "/Waterside-Residences-Brochure.pdf"; 
+  const brochureUrl = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha.pdf"; 
   const details = "SOBHA ALTUS";
 
   const description = `
-    Nestled in the heart of Gurgaon, Sector 89, this upcoming residential projects redefine the landscape of properties in Gurgaon. Offering a blend of modernity and comfort, these new projects in Gurgaon epitomize the essence of luxury living. Explore the portfolio of Gurgaon residential projects in Sector 89, Gurgaon, where innovation meets elegance, setting new standards for upcoming projects in Gurgaon.
+    Welcome to SOBHA Altus, an exceptional residential enclave that redefines luxury living along the prestigious Upper Dwarka Expressway in Gurgaon. Designed by a globally renowned team of architects and designers from India, Europe, and the Far East, SOBHA Altus brings a harmonious blend of international expertise and sophisticated design to life.
+
+The community welcomes residents with a grand, access-controlled lobby that combines privacy with a luxurious arrival experience. With impeccable architectural design, spacious interiors, and top-notch security, SOBHA Altus Sector 106 Gurgaon offers a sanctuary of modern living.
   `;
 
   const price = ''
 
-  const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_map.png';
+  const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_map.png';
   const mapUrl = 'https://www.google.com/maps/place/Krisumi+Sales+Lounge/@28.4192531,76.9649014,17z/data=!3m1!4b1!4m6!3m5!1s0x390d3d63b59907ff:0x92efb89d2926d143!8m2!3d28.4192485!4d76.9697723!16s%2Fg%2F11f57wszxq?entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D';
 
   const amenities = [

@@ -21,10 +21,7 @@ import Loader from "./components/Loader"; // Import Loader Component
 import Eldico from "./pages/Eldico";
 import Waterfall from "./pages/waterfall";
 import Blog from "./pages/Blog";
-import ChoosingProperty from "./pages/ChoosingProperty";
-import MaximizingSpaces from "./pages/MaximizingSpaces";
-import RealEstateInvestment from "./pages/RealEstateInvestment";
-import SustainableLiving from "./pages/SustainableLiving";
+
 import Aeroone from "./pages/Aeroone";
 
 export default function App() {
@@ -71,10 +68,6 @@ export default function App() {
             <Route path="/blog" element={<Blog/>} />
             <Route path="/aero" element={<Aeroone/>} />
             <Route path="/blog" element={<Blog />} />
-           <Route path="/blog/choosing-the-right-property" element={<ChoosingProperty />} />
-           <Route path="/blog/maximizing-small-spaces" element={<MaximizingSpaces />} />
-           <Route path="/blog/real-estate-investment-tips" element={<RealEstateInvestment />} />
-           <Route path="/blog/sustainable-living" element={<SustainableLiving />} />
           </Routes>
           <FloatingContactIcons  phoneNumber={businessPhoneNumber} />
           <ChatBot />

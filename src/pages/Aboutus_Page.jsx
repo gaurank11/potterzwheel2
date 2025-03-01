@@ -34,7 +34,7 @@ const AboutUsPage = () => {
         <img 
           src="https://raw.githubusercontent.com/potterzwhealrealty/photos/main/About%20us.webp"
           alt="About Us Hero"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-fit"
           loading="lazy"
         />
      

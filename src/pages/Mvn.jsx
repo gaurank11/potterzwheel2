@@ -10,7 +10,7 @@ const Mvn = () => {
     'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m3.webp',
     'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m6.webp',
   ];
-  const brochureUrl = "/mvn/mvn_mall_brochure.pdf"; 
+  const brochureUrl = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/mvn_mall_brochure.pdf"; 
 
   const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp";
   const details = "MVN MALL";

@@ -3,18 +3,18 @@ import PropertyDetails from '../components/Properties_Details';
 
 const Krisumi = () => {
   const images = [
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi1.png',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi2.png',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi3.png',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi4.png',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi5.png',
-    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi6.png',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi1.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi2.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi3.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi4.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi5.webp',
+    'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi6.webp',
   ];
-const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.png";
+const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.webp";
 
 const property_location ="Sector 36A, Gurgaon"
 
-  const brochureUrl = "/Waterside-Residences-Brochure.pdf"; 
+  const brochureUrl = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Waterside-Residences-Brochure.pdf"; 
   const details = "Waterside Residences";
 
   const builder ="KRISUMI"
@@ -30,7 +30,7 @@ const property_location ="Sector 36A, Gurgaon"
 
   const price = ''
 
-  const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_location.png';
+  const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_location.webp';
   const mapUrl = 'https://www.google.com/maps/place/Krisumi+Sales+Lounge/@28.4192531,76.9649014,17z/data=!3m1!4b1!4m6!3m5!1s0x390d3d63b59907ff:0x92efb89d2926d143!8m2!3d28.4192485!4d76.9697723!16s%2Fg%2F11f57wszxq?entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D';
 
   const amenities = [

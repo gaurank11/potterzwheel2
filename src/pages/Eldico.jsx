@@ -14,7 +14,7 @@ const Eldico = () => {
 
   const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_overview.webp";
 
-  const brochureUrl = "/Waterside-Residences-Brochure.pdf"; 
+  const brochureUrl = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldeco.pdf"; 
   const details = "Eldeco Fairway Reserve";
 
   const description = `

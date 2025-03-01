@@ -15,7 +15,7 @@ const Trevoc = () => {
 
 
 
-  const brochureUrl = "/trevoc/TREVOC.pdf"; 
+  const brochureUrl = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/TREVOC.pdf"; 
   const details = "Trevoc Royal Residences";
 
   const description = `

@@ -13,7 +13,7 @@ const Camasa = () => {
 
 
   const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp";
-  const brochureUrl = "/Waterside-Residences-Brochure.pdf"; 
+  const brochureUrl = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_camasa.pdf"; 
   const details = "SS Camasa";
 
   const description = `
