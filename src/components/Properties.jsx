@@ -6,26 +6,26 @@ const PropertiesPage = () => {
   const navigate = useNavigate();
 
   const featuredProperties = [
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.png", name: "KRISUMI WATERSIDE RESIDENCES", link: "/Krisumi", price: "4 cr" },
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp", name: "MVN MALL", link: "/mvn", price: "27 lakhs" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.png", name: "KRISUMI WATERSIDE RESIDENCES", link: "/Krisumi", price: "4 cr", sector: "Sector 36A, Gurgaon, Haryana" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp", name: "MVN MALL", link: "/mvn", price: "27 lakhs", sector: "Sector 37D, Gurgaon, Haryana" },
   ];
 
   const secondRowProperties = [
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_home.webp", name: "TREVOC PROPERTIES", link: "/trevoc", price: "6 cr" },
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp", name: "SS CAMASA", link: "/camasa", price: "3.20 cr" },
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp", name: "SOBHA ALTUS", link: "/sobha", price: "1.55 cr" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_home.webp", name: "TREVOC PROPERTIES", link: "/trevoc", price: "6 cr", sector: "Sector 56, Gurgaon, Haryana" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp", name: "SS CAMASA", link: "/camasa", price: "3.20 cr", sector: "Sector 80, Gurgaon, Haryana"},
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp", name: "SOBHA ALTUS", link: "/sobha", price: "1.55 cr", sector: "Sector 89, Gurgaon, Haryana" },
   ];
 
   const thirdRowProperties = [
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_overview.webp", name: "Eldeco Fairway Reserve", link: "/eldico", price: "3.5 cr" },
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/waterfall/waterfall_img.webp", name: "KRISUMI WATERFALL RESIDENCE", link: "/waterfall", price: "2.20 cr" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_overview.webp", name: "Eldeco Fairway Reserve", link: "/eldico", price: "3.5 cr", sector: "Sector 90, Gurgaon, Haryana" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/waterfall/waterfall_img.webp", name: "KRISUMI WATERFALL RESIDENCE", link: "/waterfall", price: "2.20 cr", sector: "Sector- 36A Dwarka Expressway, Gurgaon"},
   ];
 
   const handleNavigate = useCallback((link) => {
     navigate(link);
   }, [navigate]);
 
-  const PropertyCard = ({ img, name, link, price }) => {
+  const PropertyCard = ({ img, name, link, price, sector }) => {
     return (
       <div className="relative group cursor-pointer w-full">
         <img
@@ -51,19 +51,38 @@ const PropertiesPage = () => {
           <p>{name}</p>
         </div>
 
-        <div className="absolute inset-x-0 bottom-0 flex justify-between items-center opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 bg-white p-4">
-          <div className="flex flex-col">
-            <span className="text-black text-lg font-semibold">{name}</span>
-            <span className="text-gray-600 text-sm">Starting From - {price}</span>
+        <div className="absolute inset-x-0 bottom-0 flex opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 bg-white p-4">
+  {/* Property Name & Price with More Space */}
+  <div className="flex-1 flex flex-col">
+    <span className="text-black text-lg font-semibold pt-2 mb-1">{name}</span>
+    <span className="text-gray-600 text-sm">Starting From - {price}</span>
+  </div>
+
+  {/* View Details Section (Fixed Width) */}
+  <div className="flex flex-col items-center  w-[200px]">
+
+
+{/* Sector Name */}
+<span className="bg-gray-300 text-black text-[10px] font-bold px-4 py-2  rounded w-full text-center mb-2  ">
+      {sector}
+    </span>
+
+    {/* View Details Button */}
+    <button
+      className="bg-blue-950 text-white px-4 py-3 font-semibold w-full text-center "
+      onClick={() => navigate(link)}
+    >
+      View Details
+    </button> 
+    
+  
+  </div>
+</div>
+
+
+
           </div>
-          <button
-            className="bg-blue-950 text-white px-4 py-2 font-semibold"
-            onClick={() => handleNavigate(link)}
-          >
-            View Details
-          </button>
-        </div>
-      </div>
+
     );
   };
 

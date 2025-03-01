@@ -9,7 +9,7 @@ const propertiesData = [
   { id: 4, name: 'Eldeco Fairway Reserve',type: 'Residential', type1: '4BHK/ 3BHK', address: 'Sector 80, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_overview.webp', logo: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_logo.png', link: '/eldico' },
   { id: 5, name: 'Sobha Altus',type: 'Residential', type1: '4BHK/ 3BHK', address: 'Sector 89, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.jpeg', logo: '/Real-Estate.jpg', link: '/sobha' },
   { id: 6, name: 'SS Camasa',type: 'Residential', type1: '4BHK', address: 'Sector 90, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.png', logo: '/Real-Estate.jpg', link: '/camasa' },
-  { id: 7, name: 'KRISUMI Waterfall Residence',type: 'Residential', type1: '2BHK/ 3BHK/ 4BHK', address: 'Sector- 36A Dwarka Expressway, Gurgaon', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/waterfall/waterfall_img.webp', link: '/waterfall' },
+  { id: 7, name: 'KRISUMI Waterfall Residence',type: 'Residential', type1: '2BHK/ 3BHK', address: 'Sector- 36A Dwarka Expressway, Gurgaon', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/waterfall/waterfall_img.webp', link: '/waterfall' },
   { id: 8, name: 'Aero One',type: 'Residential', type1: '5.5BHK', address: 'Sector- 37D Dwarka Expressway, Gurgaon', image: 'https://www.realtorprojects.com/project_pics/MVN%20Aero%20One%20banner-32581.jpg', logo: '/Real-Estate.jpg', link: '/aero' }
 ];
 

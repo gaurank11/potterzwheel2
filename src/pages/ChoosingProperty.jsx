@@ -1,26 +1,95 @@
 import React from "react";
+import BlogPost from "./BlogPost";
 
-export default function ChoosingProperty() {
+const ChoosingRightProperty = () => {
+  const sections = [
+    {
+      title: "Understanding Your Needs and Goals",
+      icon: "1️",
+      content: [
+        "Start by defining your purpose. Are you looking for a home, a rental property, or a long-term investment?",
+        "If purchasing a house, consider factors like family size, work proximity, and lifestyle preferences. For investments, analyze appreciation potential, rental demand, and market stability."
+      ]
+    },
+    {
+      title: "Evaluating Location and Neighborhood",
+      icon: "2️",
+      content: ["The location is crucial in real estate. Key factors to consider:"],
+      list: [
+        "Proximity to schools, hospitals, and shopping centers.",
+        "Transportation accessibility and connectivity.",
+        "Crime rates and neighborhood safety.",
+        "Future development plans and infrastructure growth."
+      ]
+    },
+    {
+      title: "Financial Planning and Budgeting",
+      icon: "3️",
+      content: ["Establishing a realistic budget is essential. Consider:"],
+      list: [
+        "Down payment and mortgage options.",
+        "Property taxes and insurance.",
+        "Maintenance and renovation expenses.",
+        "Legal and registration fees."
+      ]
+    },
+    {
+      title: "Inspecting the Property Thoroughly",
+      icon: "4️",
+      content: ["Before buying, conduct a detailed inspection. Check for:"],
+      list: [
+        "Structural integrity and material quality.",
+        "Plumbing and electrical systems.",
+        "Signs of water damage or leaks."
+      ]
+    },
+    {
+      title: "Understanding Legal Aspects",
+      icon: "5️",
+      content: ["Ensure the property has clear legal documentation. Verify:"],
+      list: [
+        "Ownership rights and title deeds.",
+        "No legal disputes or pending dues.",
+        "Compliance with zoning laws and building codes."
+      ]
+    }
+  ];
+
   return (
-    <div className=" mx-auto py-8 px-6">
-      <h1 className="text-3xl font-bold mb-4 py-8">Choosing the Right Property</h1>
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjn7mbWlHkzGfpy2lawCw1ugkHUo364wFJNg&s"
-        alt="Choosing the Right Property"
-        className="w-full h-64 object-cover mb-4 rounded-lg"
-      />
-      <p className="text-gray-700 mb-4">
-        Selecting the perfect property requires careful consideration of several factors, including location, budget, and long-term value. Whether you're a first-time homebuyer or a seasoned investor, making an informed decision is crucial.
-      </p>
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Key Factors to Consider</h2>
-      <ul className="list-disc list-inside mb-4">
-        <li><strong>Location:</strong> Choose a property in a desirable neighborhood with good connectivity and amenities.</li>
-        <li><strong>Budget:</strong> Ensure the property fits within your financial plan, including additional costs like maintenance and taxes.</li>
-        <li><strong>Future Value:</strong> Research the market trends and potential appreciation of the area.</li>
-      </ul>
-      <p className="text-gray-700">
-        Taking time to analyze these factors can help you make a confident decision when investing in a property.
-      </p>
-    </div>
+    <BlogPost
+      title="Choosing the Right Property"
+      image="https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Maximizing%20Small%20Spaces.webp"
+      content={
+        <>
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+            Finding the <strong>perfect property</strong>, whether for personal use or investment, requires careful consideration. A well-researched decision ensures <strong>long-term financial benefits</strong> and satisfaction.
+          </p>
+          <p className="text-lg md:text-xl text-gray-700">Here’s a detailed guide to help you make the right choice.</p>
+          {sections.map(({ title, icon, content, list }, index) => (
+            <div key={index} className="mt-6">
+              <h3 className="font-semibold text-xl md:text-3xl text-blue-950 mb-2">
+                <span className="bg-blue-950 text-white px-2 py-1 rounded-md">{icon}</span> {title}
+              </h3>
+              {content.map((text, idx) => (
+                <p key={idx} className="text-lg text-gray-700">{text}</p>
+              ))}
+              {list && (
+                <ul className="list-disc pl-5 text-lg text-gray-700">
+                  {list.map((item, idx) => (
+                    <li key={idx}>{item}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+          <h2 className="mt-8 text-2xl md:text-3xl font-bold text-gray-800">✅ Final Thoughts</h2>
+          <p className="text-lg text-gray-700">
+            Choosing the right property is a <strong>significant financial</strong> and personal decision. By carefully assessing your needs, researching the market, and seeking expert advice, you can make a <strong>well-informed investment</strong> that aligns with your goals.
+          </p>
+        </>
+      }
+    />
   );
-}
+};
+
+export default ChoosingRightProperty;

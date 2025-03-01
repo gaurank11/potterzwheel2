@@ -32,14 +32,14 @@ const AboutUsPage = () => {
       <section className="relative h-[270px] md:h-[95vh] flex items-center justify-center mt-10 pt-6">
         {/* Lazy Loaded Hero Image */}
         <img 
-          src="https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aboutus_hero.webp"
+          src="https://raw.githubusercontent.com/potterzwhealrealty/photos/main/About%20us.webp"
           alt="About Us Hero"
           className="absolute inset-0 w-full h-full object-cover"
           loading="lazy"
         />
      
         {/* Title */}
-        <h1 className="relative text-3xl md:text-6xl text-black font-bold px-6 py-4 rounded-md">
+        <h1 className="relative text-3xl md:text-6xl text-white font-bold px-6 py-4 rounded-md">
           About Us
         </h1>
       </section>

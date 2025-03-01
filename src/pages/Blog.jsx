@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const posts = [
   {
     id: 1,
-    title: "Modern Interior Design Trends",
+    title: "Blogs",
     description: "Explore the latest trends in interior design for 2025.",
     image: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/blog1.webp",
     link: "/blog/modern-interior-design-trends",
@@ -50,8 +50,8 @@ export default function Blog() {
           className="h-[50vh] md:h-[70vh] w-full object-cover bg-center flex items-center justify-center"
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-40 text-white p-4 rounded-xl">
-          <h2 className="text-2xl font-bold">{posts[0].title}</h2>
-          <p className="text-sm text-gray-200">{posts[0].description}</p>
+          <h2 className="text-3xl md:text-6xl font-bold">{posts[0].title}</h2>
+          
       
         </div>
       </div>

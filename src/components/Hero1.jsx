@@ -41,11 +41,11 @@ export default function HeroSection() {
           <div key={index} className="relative md:h-[700px] h-[250px]  flex items-center justify-center">
             <img src={image} alt={`Slide ${index}`} className="absolute w-full h-full object-cover" />
 
-            <div className="absolute top-1/2 left-0 w-full h-[8px] md:h-[10px] bg-white opacity-50 transform -translate-y-1/2"></div>
+            <div className="absolute top-1/2 left-0 w-full h-[8px] bg-white opacity-50 transform -translate-y-1/2"></div>
 
             <div className="absolute top-1/2 w-full transform -translate-y-1/2 flex items-center justify-center px-4">
-              <div className="relative text-white text-center px-6 md:px-10 py-6 md:py-12 rounded-lg bg-black/50 backdrop-blur-md animate-slide-fullvw">
-                <p className=" sm:text-sm md:text-3xl font-semibold">{texts[index]}</p>
+              <div className="relative text-white text-center px-6 py-3 md:py-5 rounded-lg bg-black/50 backdrop-blur-md animate-slide-fullvw">
+                <p className=" sm:text-sm md:text-2xl  font-semibold">{texts[index]}</p>
               </div>
             </div>
           </div>
