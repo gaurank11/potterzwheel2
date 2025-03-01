@@ -11,7 +11,7 @@ const PropertiesPage = () => {
   ];
 
   const secondRowProperties = [
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_home.png", name: "TREVOC PROPERTIES", link: "/trevoc", price: "6 cr" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_home.webp", name: "TREVOC PROPERTIES", link: "/trevoc", price: "6 cr" },
     { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp", name: "SS CAMASA", link: "/camasa", price: "3.20 cr" },
     { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp", name: "SOBHA ALTUS", link: "/sobha", price: "1.55 cr" },
   ];
