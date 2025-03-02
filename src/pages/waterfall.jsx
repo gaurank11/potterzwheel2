@@ -15,7 +15,7 @@ const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/phot
 const property_location ="Sector- 36A Dwarka Expressway, Gurgaon"
 
   const brochureUrl = "/Waterside-Residences-Brochure.pdf"; 
-  const details = "Waterfall Residences";
+  const details = "Krisumi Waterfall Residences";
 
   const builder ="KRISUMI"
 

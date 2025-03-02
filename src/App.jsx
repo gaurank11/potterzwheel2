@@ -21,6 +21,7 @@ import Loader from "./components/Loader"; // Import Loader Component
 import Eldico from "./pages/Eldico";
 import Waterfall from "./pages/waterfall";
 import Blog from "./pages/Blog";
+import Elaira from "./pages/Elaira";
 
 import Aeroone from "./pages/Aeroone";
 
@@ -68,6 +69,7 @@ export default function App() {
             <Route path="/blog" element={<Blog/>} />
             <Route path="/aero" element={<Aeroone/>} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/elaira" element={<Elaira/>} />
           </Routes>
           <FloatingContactIcons  phoneNumber={businessPhoneNumber} />
           <ChatBot />

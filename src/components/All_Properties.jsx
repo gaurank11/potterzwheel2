@@ -9,8 +9,9 @@ const propertiesData = [
   { id: 4, name: 'ELDECO FAIRWAY RESERVE', type: 'Residential', type1: '4BHK/ 3BHK', address: 'Sector 80, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_overview.webp', logo: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_logo.png', link: '/eldico' },
   { id: 5, name: 'SOBHA ALTUS', type: 'Residential', type1: '4BHK/ 3BHK', address: 'Sector 106s, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp', logo: '/Real-Estate.jpg', link: '/sobha' },
   { id: 6, name: 'SS CAMASA', type: 'Residential', type1: '4BHK', address: 'Sector 90, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp', logo: '/Real-Estate.jpg', link: '/camasa' },
-  { id: 7, name: 'KRISUMI WATERFALL RESIDENCE', type: 'Residential', type1: '2BHK/ 3BHK', address: 'Sector- 36A, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/waterfall/waterfall_img.webp', link: '/waterfall' },
-  { id: 8, name: 'AEROONE', type: 'Residential', type1: '5.5BHK', address: 'Sector- 37D, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero_home.webp', logo: '/Real-Estate.jpg', link: '/aero' }
+  { id: 7, name: 'KRISUMI WATERFALL RESIDENCES', type: 'Residential', type1: '2BHK/ 3BHK', address: 'Sector- 36A, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/waterfall/waterfall_img.webp', link: '/waterfall' },
+  { id: 8, name: 'MVN AEROONE', type: 'Residential', type1: '5.5BHK', address: 'Sector- 37D, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero_home.webp', logo: '/Real-Estate.jpg', link: '/aero' },
+  { id: 8, name: 'ELAIRA RESIDENCES', type: 'Residential', type1: '', address: 'Sector 80, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Elaira/el_home.webp', logo: '/Real-Estate.jpg', link: '/elaira' }
 ];
 
 const TopProperties = () => {

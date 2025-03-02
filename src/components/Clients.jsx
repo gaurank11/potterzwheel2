@@ -32,7 +32,7 @@ const ClientPartners = () => {
       <h1 className="text-3xl md:text-6xl font-bold mt-5 md:mb-10 md:pb-5 text-center text-blue-950">
         Our Clients and Partners
       </h1>
-      <div className="w-full max-w-5xl mt-5">
+      <div className="w-full  mt-5">
         <Slider {...settings}>
           {duplicatedImages.map((image, index) => (
             <div key={index} className="px-4 flex items-center justify-center">

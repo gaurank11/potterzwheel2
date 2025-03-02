@@ -27,7 +27,7 @@ const PropertiesPage = () => {
 
   const PropertyCard = ({ img, name, link, price, sector }) => {
     return (
-      <div className="relative group cursor-pointer w-full">
+      <div className="relative group cursor-pointer w-full px-2">
         <img
           src={img}
           alt={name}
