@@ -38,9 +38,10 @@ const PropertiesPage = () => {
 
         <div className="flex flex-col items-start px-4 py-2 sm:hidden">
         <p className="text-xl font-bold text-black">{name}</p>
+        <p className="text-sm text-blue-950 font-semibold">{sector}</p>
         <p className="text-sm text-black">Starting From - {price}</p>
           <button
-            className="mt-2 px-4 py-2 w-full bg-transparent border-black border text-black font-semibold hover:bg-black hover:text-white transition"
+            className="mt-2 px-4 py-2 w-full bg-transparent border-blue-950 border text-black font-semibold hover:bg-blue-950 hover:text-white transition"
             onClick={() => handleNavigate(link)}
           >
             View More
@@ -55,6 +56,7 @@ const PropertiesPage = () => {
   {/* Property Name & Price with More Space */}
   <div className="flex-1 flex flex-col">
     <span className="text-black text-lg font-semibold pt-2 mb-1">{name}</span>
+
     <span className="text-gray-600 text-sm">Starting From - {price}</span>
   </div>
 
@@ -90,10 +92,10 @@ const PropertiesPage = () => {
     <div className="min-h-screen bg-white text-gray-900 px-4 sm:px-0 mt-6">
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <div className="p-4 sm:p-5">
-          <p className="text-4xl sm:text-6xl font-bold text-right text-blue-950">FEATURED</p>
-          <p className="text-2xl sm:text-4xl font-bold text-blue-950 mt-1 text-right">LISTINGS</p>
+          <p className="text-6xl font-bold text-right text-blue-950">FEATURED</p>
+          <p className="text-4xl  font-bold text-blue-950 mt-1 text-right">LISTINGS</p>
           <button
-            className="mt-4 px-4 py-2 sm:px-6 sm:py-3 bg-transparent border-2 border-black text-black font-semibold rounded-lg hover:bg-blue-950 hover:text-white transition flex items-center space-x-2 mx-auto sm:text-2xl"
+            className="mt-4 px-6 py-3 bg-transparent border-2 border-black text-black font-semibold rounded-lg hover:bg-blue-950 hover:text-white transition flex items-center space-x-2 mx-auto md:text-2xl"
             onClick={() => navigate('/properties')}
           >
             <span>View All Properties</span>
