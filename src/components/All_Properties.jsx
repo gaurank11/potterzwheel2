@@ -3,23 +3,24 @@ import { MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const propertiesData = [
-  { id: 1, name: 'KRISUMI WATERSIDE RESIDENCES', type: 'Residential', type1: '2BHK/ 3BHK', address: 'Sector 36A, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.webp', logo: 'Krisumi logo.png', link: '/Krisumi' },
-  { id: 2, name: 'MVN MALL', type: 'Commercial', type1: 'Commercial', address: 'Sector 37D, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp', logo: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp', link: '/mvn' },
-  { id: 3, name: 'TREVOC ROYAL RESIDENCES', type: 'Residential', type1: '3BHK/ 4BHK', address: 'Sector 56, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_home.webp', logo: '/Real-Estate.jpg', link: '/trevoc' },
-  { id: 4, name: 'ELDECO FAIRWAY RESERVE', type: 'Residential', type1: '4BHK/ 3BHK', address: 'Sector 80, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_overview.webp', logo: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_logo.png', link: '/eldico' },
-  { id: 5, name: 'SOBHA ALTUS', type: 'Residential', type1: '4BHK/ 3BHK', address: 'Sector 106s, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp', logo: '/Real-Estate.jpg', link: '/sobha' },
-  { id: 6, name: 'SS CAMASA', type: 'Residential', type1: '4BHK', address: 'Sector 90, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp', logo: '/Real-Estate.jpg', link: '/camasa' },
-  { id: 7, name: 'KRISUMI WATERFALL RESIDENCES', type: 'Residential', type1: '2BHK/ 3BHK', address: 'Sector- 36A, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/waterfall/waterfall_img.webp', link: '/waterfall' },
-  { id: 8, name: 'MVN AEROONE', type: 'Residential', type1: '5.5BHK', address: 'Sector- 37D, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero_home.webp', logo: '/Real-Estate.jpg', link: '/aero' },
-  { id: 8, name: 'ELAIRA RESIDENCES', type: 'Residential', type1: '', address: 'Sector 80, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Elaira/el_home.webp', logo: '/Real-Estate.jpg', link: '/elaira' }
+  { id: 1, name: 'KRISUMI WATERSIDE RESIDENCES', type: 'Residential', type1: '2BHK/ 3BHK', address: 'Sector 36A, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.webp', link: '/Krisumi' },
+  { id: 2, name: 'MVN MALL', type: 'Commercial', type1: 'Commercial', address: 'Sector 37D, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp', link: '/mvn' },
+  { id: 3, name: 'TREVOC ROYAL RESIDENCES', type: 'Residential', type1: '3BHK/ 4BHK', address: 'Sector 56, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_home.webp', link: '/trevoc' },
+  { id: 4, name: 'ELDECO FAIRWAY RESERVE', type: 'Residential', type1: '4BHK/ 3BHK', address: 'Sector 80, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_overview.webp', link: '/eldico' },
+  { id: 5, name: 'SOBHA ALTUS', type: 'Residential', type1: '4BHK/ 3BHK', address: 'Sector 106, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp', link: '/sobha' },
+  { id: 6, name: 'SS CAMASA', type: 'Residential', type1: '4BHK', address: 'Sector 90, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp', link: '/camasa' },
+  { id: 7, name: 'KRISUMI WATERFALL RESIDENCES', type: 'Residential', type1: '2BHK/ 3BHK', address: 'Sector 36A, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/waterfall/waterfall_img.webp', link: '/waterfall' },
+  { id: 8, name: 'MVN AEROONE', type: 'Residential', type1: '5.5BHK', address: 'Sector 37D, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero_home.webp', link: '/aero' },
+  { id: 9, name: 'ELAIRA RESIDENCES', type: 'Residential', type1: '', address: 'Sector 80, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Elaira/el_home.webp', link: '/elaira' }
 ];
 
 const TopProperties = () => {
   const [filter, setFilter] = useState('All');
-  
-  const filteredProperties = useMemo(() => (
-    filter === 'All' ? propertiesData : propertiesData.filter(p => p.type === filter)
-  ), [filter]);
+
+  // Optimized filtering using useMemo
+  const filteredProperties = useMemo(() => {
+    return filter === 'All' ? propertiesData : propertiesData.filter(p => p.type === filter);
+  }, [filter]);
 
   return (
     <>
@@ -63,9 +64,11 @@ const TopProperties = () => {
                 />
                 <div className="p-4 bg-blue-950 text-white h-[140px]">
                   <h3 className="text-sm font-bold uppercase">{name}</h3>
-                  <p className="text-[12px] mb-2">{type1}</p>
+                  <p className="text-[12px] mb-2">{type1 || 'N/A'}</p>
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center text-sm"><MapPin className="mr-2" />{address}</div>
+                    <div className="flex items-center text-sm">
+                      <MapPin className="mr-2" /> {address}
+                    </div>
                     <Link to={link}>
                       <button className="px-4 py-1 rounded-md border-2 border-white text-white hover:bg-white hover:text-black transition-colors text-sm">
                         Know More

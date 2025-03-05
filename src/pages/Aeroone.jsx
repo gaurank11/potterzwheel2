@@ -26,7 +26,7 @@ MVN Aero One seems to be generating quite a buzz. It appears to be a new project
   const price = ''
 
   const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/aeroone/aero_map.webp';
-  const mapUrl = 'https://www.google.com/maps/place/Krisumi+Sales+Lounge/@28.4192531,76.9649014,17z/data=!3m1!4b1!4m6!3m5!1s0x390d3d63b59907ff:0x92efb89d2926d143!8m2!3d28.4192485!4d76.9697723!16s%2Fg%2F11f57wszxq?entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D';
+  const mapUrl = 'https://www.google.com/maps/place/MVN+Aero+One/@28.4380566,76.9593479,17z/data=!3m1!4b1!4m6!3m5!1s0x390d17005773aa1b:0xb8a95fce7abe34f2!8m2!3d28.4380519!4d76.9619228!16s%2Fg%2F11ww6nf9f5?entry=ttu&g_ep=EgoyMDI1MDMwMi4wIKXMDSoASAFQAw%3D%3D';
   const amenities = [
     { name: 'Round the Clock Security', icon: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Amenities/a1.svg' },
     { name: '24 Hours Electricity and Waterm', icon: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Amenities/a2.svg' },

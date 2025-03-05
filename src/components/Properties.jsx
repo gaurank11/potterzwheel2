@@ -27,7 +27,7 @@ const PropertiesPage = () => {
 
   const PropertyCard = ({ img, name, link, price, sector }) => {
     return (
-      <div className="relative group cursor-pointer w-full px-2">
+      <div className="relative group cursor-pointer w-full md:p-2">
         <img
           src={img}
           alt={name}
@@ -36,7 +36,7 @@ const PropertiesPage = () => {
           onClick={() => handleNavigate(link)}
         />
 
-        <div className="flex flex-col items-start px-4 py-2 sm:hidden">
+        <div className="flex flex-col items-start  py-2 sm:hidden">
         <p className="text-xl font-bold text-black">{name}</p>
         <p className="text-sm text-blue-950 font-semibold">{sector}</p>
         <p className="text-sm text-black">Starting From - {price}</p>
@@ -80,8 +80,6 @@ const PropertiesPage = () => {
   
   </div>
 </div>
-
-
 
           </div>
 

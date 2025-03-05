@@ -35,13 +35,13 @@ export default function HeroSection() {
   ];
 
   return (
-    <div className="md:h-[95vh] h-[270px] overflow-hidden bg-black mt-10 pt-6">
+    <div className="md:h-[95vh] h-[370px] overflow-hidden bg-black mt-10 pt-6">
       <Slider {...settings} className="w-full h-full">
         {images.map((image, index) => (
-          <div key={index} className="relative md:h-[700px] h-[250px]  flex items-center justify-center">
+          <div key={index} className="relative md:h-[700px] h-[370px]  flex items-center justify-center">
             <img src={image} alt={`Slide ${index}`} className="absolute w-full h-full object-cover" />
 
-            <div className="absolute top-1/2 left-0 w-full h-[8px] bg-white opacity-50 transform -translate-y-1/2"></div>
+            <div className="absolute top-1/2 left-0 w-full h-[4px] bg-white opacity-50 transform -translate-y-1/2"></div>
 
             <div className="absolute top-1/2 w-full transform -translate-y-1/2 flex items-center justify-center px-4">
               <div className="relative text-white text-center px-6 py-3 md:py-5 rounded-lg bg-black/50 backdrop-blur-md animate-slide-fullvw">

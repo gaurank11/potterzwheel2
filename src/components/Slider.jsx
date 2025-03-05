@@ -34,7 +34,7 @@ export default function Slider() {
 
   return (
     <div
-      className="relative w-full md:h-[95vh] h-[270px] overflow-hidden rounded-2xl shadow-lg mt-10 pt-6"
+      className="relative w-full md:h-[95vh] h-[270px] overflow-hidden shadow-lg mt-10 pt-6"
       onMouseEnter={() => clearTimeout(timeoutRef.current)}
       onMouseLeave={startAutoPlay}
     >
@@ -66,18 +66,18 @@ export default function Slider() {
         />
       </AnimatePresence>
 
-      {/* Navigation Buttons */}
+      {/* Navigation Buttons (Hidden on Mobile) */}
       <button
         onClick={handlePrevSlide}
         aria-label="Previous Slide"
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-gray-800 p-2 rounded-full text-white hover:bg-gray-700"
+        className="absolute left-4 top-1/2 -translate-y-1/2 bg-gray-800 p-2 rounded-full text-white hover:bg-gray-700 hidden md:block"
       >
         <ChevronLeft />
       </button>
       <button
         onClick={handleNextSlide}
         aria-label="Next Slide"
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-gray-800 p-2 rounded-full text-white hover:bg-gray-700"
+        className="absolute right-4 top-1/2 -translate-y-1/2 bg-gray-800 p-2 rounded-full text-white hover:bg-gray-700 hidden md:block"
       >
         <ChevronRight />
       </button>

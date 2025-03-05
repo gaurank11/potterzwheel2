@@ -26,7 +26,7 @@ const property_location ="Sector- 36A Dwarka Expressway, Gurgaon"
   const price = ''
 
   const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/waterfall/wt_map.webp';
-  const mapUrl = 'https://www.google.com/maps/dir//Krisumi+Waterfall+Residences+Gurgaon+Sector+36A+Gurugram,+Haryana+122002/@28.4170455,76.973437,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d3daba8918f95:0x5c81fa76593240e6!2m2!1d76.973437!2d28.4170455?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D';
+  const mapUrl = 'https://www.google.com/maps/place/Krisumi+Waterfall+Residences+Gurgaon/@28.4170502,76.9708621,17z/data=!3m1!4b1!4m6!3m5!1s0x390d3daba8918f95:0x5c81fa76593240e6!8m2!3d28.4170455!4d76.973437!16s%2Fg%2F11h_t6bd07?entry=ttu&g_ep=EgoyMDI1MDMwMi4wIKXMDSoASAFQAw%3D%3D';
 
   const amenities = [
     { name: 'Round the Clock Security', icon: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Amenities/a1.svg' },

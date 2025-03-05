@@ -26,7 +26,7 @@ At Eldeco Fairway Reserve, luxury begins with picturesque views and continues wi
   const price = ''
 
   const mapImage = 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/e_map.webp';
-  const mapUrl = 'https://www.google.com/maps/place/Krisumi+Sales+Lounge/@28.4192531,76.9649014,17z/data=!3m1!4b1!4m6!3m5!1s0x390d3d63b59907ff:0x92efb89d2926d143!8m2!3d28.4192485!4d76.9697723!16s%2Fg%2F11f57wszxq?entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D';
+  const mapUrl = 'https://www.google.com/maps/place/Eldeco+Fairway+Reserve+Sector+80/@28.3635672,76.9583626,17z/data=!3m1!4b1!4m6!3m5!1s0x390d3d0046a30fb7:0xe7d0ea9ceb9a2bcf!8m2!3d28.3635625!4d76.9609375!16s%2Fg%2F11wqwsysbc?entry=ttu&g_ep=EgoyMDI1MDMwMi4wIKXMDSoASAFQAw%3D%3D';
 
   const amenities = [
     { name: 'Round the Clock Security', icon: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Amenities/a1.svg' },
