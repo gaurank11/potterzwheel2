@@ -510,11 +510,11 @@ import emailjs from "emailjs-com";
  
   {/* Desktop & Laptop View */}
   <div className="hidden lg:block">
-  <h2 className="text-6xl font-bold text-center md:text-left lg:text-5xl ">{details}</h2>
+  <h2 className="text-6xl font-bold text-center md:text-left lg:text-5xl text-blue-950">{details}</h2>
 
   <p className="mt-5 text-justify text-[16px] lg:text-[20px] leading-relaxed">
     {/* Styled first letter */}
-    <span className="text-6xl lg:text-[90px] font-semibold leading-none lg:float-left lg:mr-4 lg:mt-1">
+    <span className="text-6xl lg:text-[90px] font-semibold leading-none lg:float-left lg:mr-4 lg:mt-1 text-blue-950">
       {description.trim()[0].toUpperCase()}
     </span>
     <span>
@@ -536,11 +536,11 @@ import emailjs from "emailjs-com";
 
 {/* Mobile View */}
 <div className="block lg:hidden mt-6">
-  <h2 className="text-[30px] font-bold text-left">{details}</h2>
+  <h2 className="text-[30px] font-bold text-left text-blue-950">{details}</h2>
 
   <p className="mt-6 text-[14px] text-justify">
     {/* Styled first letter */}
-    <span className="text-4xl font-semibold leading-none float-left mr-3">
+    <span className="text-4xl font-semibold leading-none float-left mr-3 text-blue-950">
       {description.trim()[0].toUpperCase()}
     </span>
     <span>
@@ -609,7 +609,7 @@ import emailjs from "emailjs-com";
 
       {/* Project Location Section */}
 <div className="my-8 mt-16 md:px-10">
-  <h2 className="text-3xl font-bold text-center md:text-5xl">
+  <h2 className="text-3xl font-bold text-blue-950 text-center md:text-5xl">
     LOCATION
   </h2>
 
@@ -650,7 +650,7 @@ import emailjs from "emailjs-com";
 
 {/* Amenities Section */}
 <div className="my-8 mt-16 md:px-10">
-  <h2 className="text-3xl font-bold md:text-5xl text-center">AMENITIES</h2>
+  <h2 className="text-3xl font-bold md:text-5xl text-center text-blue-950">AMENITIES</h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center mt-4 md:px-10">
     {amenities.map((amenity, index) => (
       <div

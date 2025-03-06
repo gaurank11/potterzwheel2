@@ -41,7 +41,7 @@ const PropertiesPage = () => {
         <p className="text-sm text-blue-950 font-semibold">{sector}</p>
         <p className="text-sm text-black">Starting From - {price}</p>
           <button
-            className="mt-2 px-4 py-2 w-full bg-transparent border-blue-950 border text-black font-semibold hover:bg-blue-950 hover:text-white transition"
+            className="mt-2 px-4 py-2 w-full bg-white border-blue-950 border text-black font-semibold hover:bg-blue-950 hover:text-white transition"
             onClick={() => handleNavigate(link)}
           >
             View More

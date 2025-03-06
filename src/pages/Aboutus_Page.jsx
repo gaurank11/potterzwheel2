@@ -48,7 +48,7 @@ const AboutUsPage = () => {
       <section className="py-20 px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-12 md:space-y-0 md:space-x-12">
         <div className="flex-1">
           <p className="text-lg md:text-xl">At Potterzwheel Realty, we aim to transform the real estate experience by addressing common inefficiencies, lack of transparency, and fragmented services in the market. Whether buying, selling, or leasing residential or commercial properties, our goal is to provide a seamless, customer-focused experience that maximizes your returns and builds trust.</p>
-          <h2 className="mt-6 text-3xl font-semibold">Potterzwheel Realty—Crafting Legacies</h2>
+          <h2 className="mt-6 text-3xl font-semibold text-blue-950">Potterzwheel Realty—Crafting Legacies</h2>
         </div>
         <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-6">
           {["ab1.webp", "ab2.webp"].map((img, index) => (
