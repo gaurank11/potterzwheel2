@@ -84,6 +84,7 @@ const HowItWorks = () => (
 
 const RecentWork = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+  const isMobile = window.innerWidth < 768; // Check if the user is on mobile
 
   return (
     <section className="py-12" id="recentwork">
@@ -97,7 +98,7 @@ const RecentWork = () => {
             1024: { slidesPerView: 2.2, centeredSlides: true },
           }}
           spaceBetween={20}
-          navigation={true}
+          navigation={!isMobile} // Disable navigation on mobile
           modules={[Navigation]}
           loop={false}
           initialSlide={1}
@@ -140,6 +141,7 @@ const RecentWork = () => {
     </section>
   );
 };
+
 
 const Interiors = () => (
   <>

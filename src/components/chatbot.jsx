@@ -49,7 +49,7 @@ const ChatBot = () => {
 
       {showChat && (
         <div className="fixed bottom-16 right-5 w-80 bg-white shadow-lg border rounded-lg">
-          <div className="flex justify-between items-center p-3 bg-blue-900 text-white">
+          <div className="flex justify-between items-center p-3 bg-blue-900 text-white max-h-[70vh] md:max-h-[80vh] overflow-auto">
             <h2 className="text-lg font-semibold">Potterzwheel Realty</h2>
             <button onClick={toggleChat} className="text-2xl">&times;</button>
           </div>
@@ -72,10 +72,38 @@ const ChatBot = () => {
           )}
 
           {menu === "buyProperty" && (
-            <div className="p-3 grid grid-cols-1 gap-2">
-              <button onClick={() => setMenu("residential")} className="bg-blue-950 text-white py-2 rounded">Residential Property 🏡</button>
-              <button onClick={() => setMenu("commercial")} className="bg-blue-950 text-white py-2 rounded">Commercial Space 🏢</button>
+            <div className="p-3 overflow-auto max-h-40">
+              <button onClick={() => setMenu("residential")} className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Residential Property 🏡</button>
+              <button onClick={() => setMenu("commercial")} className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Commercial Space 🏢</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Studio Apartment 🏢</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Residential Plot 📍🏢</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">SCO/Retail Space 🛍</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Farmhouses 🌾</button>
               <button onClick={() => setMenu("main")} className="bg-white text-black py-2 rounded w-full mt-2 border border-black">Back</button>
+            </div>
+          )}
+
+{menu === "leaseProperty" && (
+            <div className="p-3 overflow-auto max-h-40">
+              <button  className="bg-blue-950 text-white py-2 w-full mb-2  rounded">Residential Property 🏡</button>
+              <button  className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Commercial Space 🏢</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Studio Apartment 🏢</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Residential Plot 📍🏢</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">SCO/Retail Space 🛍</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Farmhouses 🌾</button>
+              <button onClick={() => setMenu("main")} className="bg-white text-black py-2 rounded w-full mt-2 border border-black">Back</button>
+            </div>
+          )}
+
+{menu === "sellProperty" && (
+            <div className="p-3 overflow-auto max-h-40">
+              <button  className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Residential Property 🏡</button>
+              <button  className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Commercial Space 🏢</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Studio Apartment 🏢</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Residential Plot 📍🏢</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">SCO/Retail Space 🛍</button>
+              <button className="bg-blue-950 text-white py-2 w-full mb-2 rounded">Farmhouses 🌾</button>
+              <button onClick={() => setMenu("main")} className="bg-white text-black py-2 rounded w-full  border border-black">Back</button>
             </div>
           )}
 

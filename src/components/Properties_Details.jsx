@@ -398,7 +398,7 @@ import emailjs from "emailjs-com";
 
 {showSchedulePopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-          <div className="bg-blue-950 p-8 rounded-lg w-full max-w-lg text-center relative">
+          <div className="bg-blue-950 p-8 rounded-lg w-full max-w-lg text-center relative max-h-[70vh] md:max-h-[80vh] overflow-auto">
             <h3 className="text-lg font-semibold text-white md:text-2xl mb-4">
               Schedule a Showing for <span className="text-white">{details} </span>
             </h3>
