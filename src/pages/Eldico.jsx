@@ -16,6 +16,7 @@ const Eldico = () => {
 
   const brochureUrl = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldeco.pdf"; 
   const details = "Eldeco Fairway Reserve";
+  const builder ="ELDECO";
 
   const description = `
     Welcome to Eldeco Fairway Reserve , an oasis of opulence in Gurugram’s Sector 80. Wake up to breathtaking vistas of the majestic Aravali hills, where the tranquility of nature blends seamlessly with modern elegance.
@@ -71,6 +72,7 @@ At Eldeco Fairway Reserve, luxury begins with picturesque views and continues wi
       handleOpenInMap={handleOpenInMap}
       overview_img = { overview_img}
       details = {details}
+      builder ={builder}
     />
   );
 };

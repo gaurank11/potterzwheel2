@@ -15,6 +15,7 @@ const Camasa = () => {
   const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_homepage.webp";
   const brochureUrl = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/ss_camasa/ss_camasa.pdf"; 
   const details = "SS Camasa";
+  const builder ="SS CAMASA";
 
   const description = `
     Welcome to SS Camasa Sector 90 – an upcoming paradigm of ultra-luxury high-rise living in the prime sector of Gurgaon. Immerse yourself in the epitome of opulence with high-end luxury features and expansive living spaces. Meticulously planned as a three-side open community, every residence at SS Camasa Sector 90 boasts VRV air-conditioning and Italian marble flooring, ensuring a perfect blend of comfort and elegance. Nestled along the 135-meter multi-utility metro corridor, this project provides a grand entrance, promising a truly elevated living experience.
@@ -69,6 +70,7 @@ const Camasa = () => {
       handleOpenInMap={handleOpenInMap}
       details = {details}
       overview_img = { overview_img}
+      builder ={builder}
     />
   );
 };

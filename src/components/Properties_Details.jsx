@@ -187,7 +187,7 @@ import emailjs from "emailjs-com";
     <div className="mt-15">
     {/* Popup Form */}
     {showPopup && (
-  <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 px-4 py-8 md:py-12">
+  <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 px-4 py-8 md:py-12 z-50">
     <div className="bg-gray-50 p-6 rounded-lg w-full max-w-lg md:max-w-4xl relative border border-blue-950 max-h-[70vh] md:max-h-[80vh] overflow-auto">
       
       {/* Image + Form Container */}
@@ -292,7 +292,7 @@ import emailjs from "emailjs-com";
 )}
 
 {showPopup2 && (
-  <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 px-4 py-8 md:py-12">
+  <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 px-4 py-8 md:py-12 z-50">
     <div className="bg-gray-50 p-6 rounded-lg w-full max-w-lg md:max-w-4xl relative border border-blue-950 max-h-[70vh] md:max-h-[80vh] overflow-auto">
       
       {/* Image + Form Container */}
@@ -397,7 +397,7 @@ import emailjs from "emailjs-com";
 )}
 
 {showSchedulePopup && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-blue-950 p-8 rounded-lg w-full max-w-lg text-center relative max-h-[70vh] md:max-h-[80vh] overflow-auto">
             <h3 className="text-lg font-semibold text-white md:text-2xl mb-4">
               Schedule a Showing for <span className="text-white">{details} </span>
@@ -496,12 +496,19 @@ import emailjs from "emailjs-com";
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-0">
   {images.map((image, index) => (
     <div key={index} className="flex justify-center items-center">
-      <img
-        src={image}
-        alt={`Property image ${index + 1}`}
-        className="w-full h-auto md:h-80 object-fit"
-        loading="lazy" // Lazy loading added here
-      />
+      <div className="relative w-full">
+        {/* Image */}
+        <img
+          src={image}
+          alt={`Property image ${index + 1}`}
+          className="w-full h-auto md:h-80 object-cover"
+          loading="lazy"
+        />
+        {/* Builder Name Overlay */}
+        <div className="absolute bottom-2 left-2 bg-black bg-opacity-50 text-white text-sm px-3 py-1 rounded z-10">
+          {builder}
+        </div>
+      </div>
     </div>
   ))}
 </div>

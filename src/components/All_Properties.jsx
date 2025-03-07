@@ -3,7 +3,7 @@ import { MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const propertiesData = [
-  { id: 1, name: 'KRISUMI WATERSIDE RESIDENCES', type: 'Residential', type1: '2BHK/ 3BHK', address: 'Sector 36A, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.webp', link: '/Krisumi' },
+  { id: 1, name: 'KRISUMI WATERSIDE RESIDENCES', type: 'Residential', type1: '2BHK/ 3BHK', address: 'Sector 36A, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.webp', link: '/krisumi' },
   { id: 2, name: 'MVN MALL', type: 'Commercial', type1: 'Commercial', address: 'Sector 37D, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp', link: '/mvn' },
   { id: 3, name: 'TREVOC ROYAL RESIDENCES', type: 'Residential', type1: '3BHK/ 4BHK', address: 'Sector 56, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/trevoc/t_home.webp', link: '/trevoc' },
   { id: 4, name: 'ELDECO FAIRWAY RESERVE', type: 'Residential', type1: '4BHK/ 3BHK', address: 'Sector 80, Gurgaon, Haryana', image: 'https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Eldico/eldico_overview.webp', link: '/eldico' },

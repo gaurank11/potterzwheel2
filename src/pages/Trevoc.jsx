@@ -21,6 +21,7 @@ const Trevoc = () => {
   const description = `
     Trevoc Royal Residences harmonises modernity with sophistication, integrating smart home automation for ultimate convenience, top-notch security for peace of mind, and ample parking with EV charging stations, all embodying the future of sustainable luxury. The lifestyle here is second to none, with exclusive amenities like a clubhouse featuring fine dining restaurants and bars, a spa & salon, meditation and relaxation zones, and weather-controlled infinity pools. For those who seamlessly blend work and leisure, the co-working spaces within the development provide the ideal environment for productivity and relaxation. Discover the unparalleled lifestyle at Trevoc Royal Residences, where every detail is designed for those who demand the best.
   `;
+  const builder ="TREVOC GROUP";
 
   const price = ''
 
@@ -84,6 +85,7 @@ const Trevoc = () => {
       handleOpenInMap={handleOpenInMap}
       overview_img = { overview_img}
       details = {details}
+      builder ={builder}
     />
   );
 };

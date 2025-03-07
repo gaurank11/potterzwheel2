@@ -14,6 +14,7 @@ const Mvn = () => {
 
   const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp";
   const details = "MVN MALL";
+   const builder ="MVN GROUP";
 
   const description = `
    The mall is designed to be the ultimate destination for both families and tourists, offering a vibrant and inviting atmosphere. With the airport just a stone's throw away, this destination also has its own luxury hotel for tourists visiting from far & wide.
@@ -72,6 +73,7 @@ There are dedicated floors thoughtfully curated to focus on a specific category,
       handleOpenInMap={handleOpenInMap}
       details = {details}
       overview_img = { overview_img}
+      builder ={builder}
     />
   );
 };

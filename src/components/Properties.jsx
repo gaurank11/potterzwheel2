@@ -6,7 +6,7 @@ const PropertiesPage = () => {
   const navigate = useNavigate();
 
   const featuredProperties = [
-    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.webp", name: "KRISUMI WATERSIDE RESIDENCES", link: "/Krisumi", price: "4 cr", sector: "Sector 36A, Gurgaon, Haryana" },
+    { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/Krisumi_Homepage.webp", name: "KRISUMI WATERSIDE RESIDENCES", link: "/krisumi", price: "4 cr", sector: "Sector 36A, Gurgaon, Haryana" },
     { img: "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/mvn/m1.webp", name: "MVN MALL", link: "/mvn", price: "27 lakhs", sector: "Sector 37D, Gurgaon, Haryana" },
   ];
 

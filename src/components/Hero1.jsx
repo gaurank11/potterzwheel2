@@ -45,7 +45,7 @@ export default function HeroSection() {
 
             <div className="absolute top-1/2 w-full transform -translate-y-1/2 flex items-center justify-center px-4">
               <div className="relative text-white text-center px-6 py-3 md:py-5 rounded-lg bg-black/50 backdrop-blur-md animate-slide-fullvw">
-                <p className=" sm:text-sm md:text-2xl  font-semibold">{texts[index]}</p>
+                <p className="text-sm md:text-2xl  font-semibold">{texts[index]}</p>
               </div>
             </div>
           </div>

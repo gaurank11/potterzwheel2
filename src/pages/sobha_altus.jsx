@@ -15,6 +15,7 @@ const Sobha = () => {
   const  overview_img = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha_home.webp";
   const brochureUrl = "https://raw.githubusercontent.com/potterzwhealrealty/photos/main/sobha_altus/sobha.pdf"; 
   const details = "SOBHA ALTUS";
+  const builder ="SOBHA";
 
   const description = `
     Welcome to SOBHA Altus, an exceptional residential enclave that redefines luxury living along the prestigious Upper Dwarka Expressway in Gurgaon. Designed by a globally renowned team of architects and designers from India, Europe, and the Far East, SOBHA Altus brings a harmonious blend of international expertise and sophisticated design to life.
@@ -71,6 +72,7 @@ The community welcomes residents with a grand, access-controlled lobby that comb
       overview_img = { overview_img}
       handleOpenInMap={handleOpenInMap}
       details = {details}
+      builder ={builder}
     />
   );
 };
